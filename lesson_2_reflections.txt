@@ -21,3 +21,7 @@ What happens when you initialize a repository? Why do you need to do it?
   What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
   It combines the code from two different logical branches of work, creates a new master tip from which to move forward, and retains all prior commits from both previously separate branches.
+
+  What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  It will create a new commit for the newly created branch, and will provide the opportunity to catch conflicts, so you can determine which of similar pieces of code you want to keep.
