@@ -17,3 +17,7 @@ What happens when you initialize a repository? Why do you need to do it?
   How do the diagrams help you visualize the branch structure?
 
   This is critical when you have code that may go in multiple directions, e.g. new features, bug fixes, collaborating with others who are working on separate, but related pieces of content. Without the diagrams, you would also lose "sight" of the relationships between parent/child commits on the branch. Also prevents you from losing access to changes that might not otherwise be reachable on a current branch.
+
+  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  It combines the code from two different logical branches of work, creates a new master tip from which to move forward, and retains all prior commits from both previously separate branches.
