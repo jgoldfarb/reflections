@@ -5,4 +5,7 @@ What happens when you initialize a repository? Why do you need to do it?
   How is the staging area different from the working directory and the repository? What value do you think it offers?
 
   The staging area is where you temporarily place your files from your working directory before you commit them to the repository. Depending on the content and the logic of your files, you may want to commit them in different groupings or orders. The staging area helps you to arrange your commits logically.
-cd
+
+  How can you use the staging area to make sure you have one commit per logical change?
+
+  You can use different variations of git diff. Git diff without any arguments will compare file changes in the working directory to what has been placed in the staging area. To then compare what's in the staging area to the last commit in the repository, use "git diff --staged". Once you have confirmed that the changes you want are the in the staging area, then it's safe to make the commit. If you see changes to files in the staging area that you do not want to keep e.g. consolidating a line of code that isn't necessary, you can use " git reset --hard" to discard. But be careful - these changes haven't been committed yet, so a reset here isn't reversible.
