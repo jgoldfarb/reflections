@@ -1,0 +1,2 @@
+  When would you want to use a remote repository rather than keeping all your work local?
+  When there are different people contributing to the project - that way there is one set of 'everything' available to everyone that needs to see it.
