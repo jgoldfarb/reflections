@@ -17,3 +17,7 @@
   What is the benefit of having a copy of the last known state of the remote stored locally?
 
   If there are different changes in each repository (local and remote), you can just update the local copy of the remote branch, leaving the actual local version alone, by using git fetch. Then you can see the difference between the versions on the local and remote repositories using git log and git diff. After seeing the difference, you can then use git merge to pick the content you want, and then join the two previously different commits together.
+
+  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+  Without Git/Hub you would would have to send files back and forth, or upload them to a shared location. Even with different file names for the different versions it would be very difficult to compare the differences between files and to figure out which versions, or combinations of them that you would need to keep. 
